@@ -13,7 +13,7 @@
     <link rel="shortcut icon" type="image/jpg" href="Favicon_Image_Location" />
     ...
 </head>
-
+<link rel="stylesheet" href="./assets/css/style.css">
 <body>
 
     <div id="main">
@@ -21,9 +21,10 @@
             <!-- Begin: Nav -->
             <ul id="nav">
                 <li><a href="#">Home</a></li>
-                <li><a href="#band">Band</a></li>
-                <li><a href="#tour">Tour</a></li>
-                <li><a href="#contact">Contact</a></li>
+                <li><a href="./band.html">Band</a></li>
+                <li><a href="./tour.html">Tour</a></li>
+                <li><a href="./contact.html">Contact</a></li>
+                <li><a href="./login.html">Login</a></li>
                 <li>
                     <a href="">
                         More
@@ -32,9 +33,11 @@
                     <ul class="subnav">
                         <li><a href="#">Merchandise</a></li>
                         <li><a href="#">Extras</a></li>
-                        <li><a href="#">Media</a></li>
+                        <li><a href="./media.html">Media</a></li>
                     </ul>
                 </li>
+                
+                
             </ul>
             <!-- End: nav -->
 
@@ -48,127 +51,27 @@
 
         <div id="slider">
             <div class="text-content">
-                <h2 class="text-heading">Viet Nam</h2>
+                <h2 class="text-heading">New York</h2>
                 <div class="text-description">The atmosphere in New York is lorem ipsum.</div>
+            </div>
+            
+        </div>
+        <div id="slider-1">
+            <div class="text-content1">
+                <img src="./assets/img/anh5.jpg" alt="">
+                <h2 class="text-heading1">Viet Nam</h2>
+                <div class="text-description1">The atmosphere in New York is lorem ipsum.</div>
             </div>
 
         </div>
 
-
         <div id="content">
-            <!-- ABOUT Section -->
-            <div id="band" class="content-section">
-                <h2 class="section-heading">THE BAND</h2>
-                <p class="section-sub-heading">We love music</p>
-                <p class="about-text">We have created a fictional band website. Lorem ipsum dolor sit amet, consectetur
-                    adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim
-                    veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute
-                    irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
-                    Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id
-                    est laborum consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna
-                    aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea
-                    commodo consequat.</p>
-                <div class="row member-list">
-                    <div class="col col-third text-center">
-                        <p class="member-name">Name</p>
-                        <img src="./assets/img/bandmember.jpg" alt="Name" class="member-img">
-                    </div>
-                    <div class="col col-third text-center">
-                        <p class="member-name">Name</p>
-                        <img src="./assets/img/bandmember.jpg" alt="Name" class="member-img">
-                    </div>
-                    <div class="col col-third text-center">
-                        <p class="member-name">Name</p>
-                        <img src="./assets/img/bandmember.jpg" alt="Name" class="member-img">
-                    </div>
-
-                </div>
-            </div>
-
-            <!-- Tuor section -->
-            <div id="tour" class="tour-section">
-                <div class="content-section">
-                    <h2 class="section-heading text-white">TOUR DATES</h2>
-                    <p class="section-sub-heading text-white">Remember to book your tickets!</p>
-
-                    <ul class="tickets-list">
-                        <li>September <span class="sold-out">Sold out</span></li>
-                        <li>October <span class="sold-out">Sold out</span></li>
-                        <li>November <span class="quantity">3</span></li>
-                    </ul>
-                    <div class="row places-list">
-                        <div class="col col-third">
-                            <img src="./assets/img/anh1.jpg" alt="New York" class="place-img">
-                            <div class="place-body">
-                                <h3 class="place-heading">New York</h3>
-                                <p class="place-time">Fri 27 Nov 2016</p>
-                                <p class="place-desc">Praesent tincidunt sed tellus ut rutrum sed vitae justo.</p>
-                                <button class="btn js-buy-ticket">Buy Tickets</button>
-                            </div>
-                        </div>
-                        <div class="col col-third">
-                            <img src="./assets/img/anh2.jpg" alt="Paris" class="place-img">
-                            <div class="place-body">
-                                <h3 class="place-heading">Paris</h3>
-                                <p class="place-time">Sat 28 Nov 2016</p>
-                                <p class="place-desc">Praesent tincidunt sed tellus ut rutrum sed vitae justo.</p>
-                                <button class="btn js-buy-ticket">Buy Tickets</button>
-                            </div>
-                        </div>
-                        <div class="col col-third">
-                            <img src="./assets/img/anh3.jpg" alt="San Francisco" class="place-img">
-                            <div class="place-body">
-                                <h3 class="place-heading">San Francisco</h3>
-                                <p class="place-time">Sun 29 Nov 2016</p>
-                                <p class="place-desc">Praesent tincidunt sed tellus ut rutrum sed vitae justo</p>
-                                <button class="btn js-buy-ticket">Buy Tickets</button>
-                            </div>
-                        </div>
-
-                    </div>
-                </div>
-
-            </div>
-
-
-            <!-- Contact section -->
-            <div id="contact" class="content-section" style="margin-bottom: 90px;">
-                <h2 class="section-heading">CONTACT</h2>
-                <p class="section-sub-heading">Fan? Drop a note!</p>
-
-                <div class="row contact-content">
-                    <div class="col col-half contact-info">
-                        <p><i class="ti-location-pin"> SaiGon, VN</i></p>
-                        <p><i class="ti-headphone"></i> Phone: 0832597279</p>
-                        <p><i class="ti-email"></i> Trungkien16603@gmail.com</p>
-                    </div>
-                    <div class="col col-half contact-form">
-                        <form action="">
-                            <div class="row ">
-                                <div class="col col-half">
-                                    <input type="text" name="" placeholder="Name" required id="" class="form-control">
-                                </div>
-                                <div class="col col-half">
-                                    <input type="email" name="" placeholder="Email" required id="" class="form-control">
-                                </div>
-
-                            </div>
-                            <div class="row mt-8">
-                                <div class="col col-full">
-                                    <input type="text" name="" placeholder="Message" required id=""
-                                        class="form-control">
-                                </div>
-                            </div>
-                            <input class="btn pull-right mt-16" type="submit" value="SEND">
-                        </form>
-                    </div>
-                </div>
-
-            </div>
             <!-- End: Contact section -->
             <div id="map" class="map-section">
                 <img src="./assets/img/map.jpg" alt="map">
             </div>
+           
+
         </div>
 
         <div id="footer">
@@ -185,42 +88,9 @@
 
     </div>
 
-    <div class="modal js-modal ">
-        <div class="modal-container">
-            <div class="moldal-close js-modal-close">
-                <i class="ti-close"></i>
-            </div>
 
-            <header class="modal-header">
-                <i class="modal-heding-icon ti-heart">
-                    Tickets
-                </i>
-            </header>
 
-            <div class="modal-body">
-                <label for="ticket-quantity" class="modal-label">
-                    <i class="ti-shopping-cart-full"></i>
-                    Tickets, $15 per person
-                </label>
-                <input id="ticket-quantity" type="text" class="modal-input" placeholder="How many?">
-
-                <label for="ticket-email" class="modal-label">
-                    <i class="ti-user"></i>
-                    Send To
-                </label>
-                <input id="ticket-email" type="text" class="modal-input" placeholder="Enter Email">
-                <button id="buy-tickets">
-                    Pay
-                    <i class="ti-check"></i>
-                </button>
-            </div>
-            <footder class="modal-footder">
-                <p class="modal-help">Need <a href="">help</a></p>
-            </footder>
-        </div>
-    </div>
-
-    <script>
+    <!-- <script>
         const buyBtns = document.querySelectorAll('.js-buy-ticket')
 
 
@@ -240,27 +110,12 @@
         }
         // nghe hành vi click vào button close
         modalClose.addEventListener('click', hideshowBuyTickets)
-    </script>
-    <!-- nut like -->
-    <div id="fb-root"></div>
-    <script async defer crossorigin="anonymous" src="https://connect.facebook.net/vi_VN/sdk.js#xfbml=1&version=v15.0"
-        nonce="ablAW3ox"></script>
-    <div class="fb-like" data-href="https://developers.facebook.com/docs/plugins/" data-width="" data-layout="standard"
-        data-action="like" data-size="small" data-share="true"></div>
-    <!-- nut comment -->
-    <div id="fb-root"></div>
-    <script async defer crossorigin="anonymous" src="https://connect.facebook.net/vi_VN/sdk.js#xfbml=1&version=v15.0"
-        nonce="yyrn2IbK"></script>
-    <div class="fb-comments" data-href="https://developers.facebook.com/docs/plugins/comments#configurator"
-        data-width="" data-numposts="1"></div>
+    </script> -->
+   
     <!-- map cd fpt -->
-    <div class="map-cdfpt">
-        <iframe
-            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d62695.2836196459!2d106.55950695820313!3d10.852939100000004!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x317529b6a2b351a5%3A0x11690ada8c36f9bc!2zVHLGsOG7nW5nIENhbyDEkeG6s25nIFRo4buxYyBow6BuaCBGUFQgUG9seXRlY2huaWMgVFAuSENNIChDUzMp!5e0!3m2!1svi!2s!4v1665936096881!5m2!1svi!2s"
-            width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"
-            referrerpolicy="no-referrer-when-downgrade"></iframe>
-    </div>
-
+    
+    <script src="https://uhchat.net/code.php?f=1fe8e9"></script>
+    
 </body>
 
 </html>

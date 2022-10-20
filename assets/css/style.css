@@ -188,15 +188,21 @@ html{
     padding-top: 50%;
     background: url('https://raw.githubusercontent.com/KienBanana/TheBand/master/assets/img/chicago.jpg') top center / cover no-repeat; 
 }
+#slider-1  img{
+    margin-top: 20px;
+    background-color: #ccc;
+}
 
 #slider  .text-content{
     position: absolute;
     bottom: 47px;/* giup minh dua chu len slider  */
-    color: #fff;
+    color: #ccc;
     /* left: 50%; */
     width: 100%;
     /* transform: translateX(-50%); *//* giup can chu ra giua man hinh  */
     text-align: center;
+    /* margin-top: -18px; */
+    margin-bottom: ;
 }
 #slider .text-heading{
     font-weight: 500;
@@ -207,6 +213,24 @@ html{
 #slider .text-description{
     margin-top: 25px;
     font-size: 20px;
+}
+#slider-1 .text-content1{
+    margin-top: -19px;
+    background-color: #ccc;
+}
+
+#slider-1 .text-heading1{
+    font-weight: 500;
+    font-size: 25px;
+    text-align: center; 
+    margin-top: 0px;
+}
+#slider-1 .text-description1{
+    margin-top: 15px;
+    font-size: 20px;
+    text-align: center;
+    margin-top: 10px;
+    margin-bottom: 10px;
 }
 /* tour section */
 .tour-section{
@@ -320,7 +344,7 @@ html{
     bottom: 0;
     left: 0;
     background:rgba(0, 0, 0, 0.3);
-    display: none;
+    margin-left: 175px;
     align-items: center;
     justify-content: center;
 }
@@ -381,12 +405,15 @@ html{
     padding: 15px;
     background-color: #009688;
     color: #fff;
+    
     text-transform: uppercase;
 }
 .modal-footder{
     padding: 14px;
-    text-align: right;
-    
+    text-align: right; 
+}
+.modal-help{
+    margin-right: 20px;
 }
 .modal-footder a{
     color: #2196F3!important;
@@ -416,11 +443,14 @@ html{
 /* Map  */
 .map-section img{
     width: 100%;/* de anh co theo ti le khung hinh */
+    margin-top: -10px;
 
 }
 #footer{
     padding: 64px 16px;
     text-align: center;
+    background-color: #ccc;
+    margin-top: -5px;
 }
 #footer .socicals-list{
     font-size: 24px;
