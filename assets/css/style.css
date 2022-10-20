@@ -202,7 +202,7 @@ html{
     /* transform: translateX(-50%); *//* giup can chu ra giua man hinh  */
     text-align: center;
     /* margin-top: -18px; */
-    margin-bottom: ;
+    
 }
 #slider .text-heading{
     font-weight: 500;
@@ -405,7 +405,7 @@ html{
     padding: 15px;
     background-color: #009688;
     color: #fff;
-    
+
     text-transform: uppercase;
 }
 .modal-footder{
